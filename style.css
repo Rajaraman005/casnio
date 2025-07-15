@@ -14,6 +14,23 @@ body {
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffcc00;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1b2432;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e6b800;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #0f141e;
